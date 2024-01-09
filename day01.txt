@@ -1,1 +1,53 @@
-Leaning dump from freecodecamp
+Leaning dump from freecodecamp (ignore typos)
+
+What is blockchain?
+
+Read about bitcoin whitepaper
+
+Ethereum protocol and bitcoin protocol
+
+What is the Oracle problem?
+
+Blockchain Oracle
+
+Hybrid Smart contract?
+on chain + off chain agreement
+
+Chainlink - decentralized oracle network
+
+Smart contract platform <> blockchain
+
+Dapp = decentralized application = decentralized protocol = smart contract
+
+What is the value of smart contracts?
+- unbreakable promises, agreements
+
+The purpose of smart contract
+- it is more like pinky swear
+- example of Mac D of $1 million lottery
+
+What is a smart contract?
+- A smart contract is an agreement, contract or a set of instructions that is deployed on a decentralized blockchain.
+
+Once deployed
+- cannot be altered (immutable)
+- automatically executes
+- everyone sees the terms of the agreement
+
+Smary contract balue = trust minimized agreements
+
+Many node operators run blockchains
+
+Other features smart contract have
+- Decentralized
+- Transparency and flexibility
+- Speed and efficiency
+- Security and immutability
+- counterparty risk removal
+- trust minimized agreements
+
+What have smart contracts done so far?
+
+Defi - decentralized finance
+DAOs - decentralized autonomous organizations
+NFTs - non fungible tokens
