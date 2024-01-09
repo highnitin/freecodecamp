@@ -51,3 +51,21 @@ What have smart contracts done so far?
 Defi - decentralized finance
 DAOs - decentralized autonomous organizations
 NFTs - non fungible tokens
+
+Create metamask wallet
+
+Start with test networks
+
+complete the transcation using-  https://faucets.chain.link/
+
+Understandin Gas
+
+- Who are miners or validators
+
+- Gas is a unit of computational measure. the more complex your transaction is the more gas you have to pay.
+
+- any transaction on the blockchain comes with paying gas
+
+What is hash?
+A unique fixed length string, meant to identify a piece of data. they are created by placing said data into a hash function.
+
