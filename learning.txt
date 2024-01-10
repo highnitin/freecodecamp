@@ -1,0 +1,146 @@
+Leaning dump from freecodecamp (ignore typos)
+
+What is blockchain?
+
+Read about bitcoin whitepaper
+
+Ethereum protocol and bitcoin protocol
+
+What is the Oracle problem?
+
+Blockchain Oracle
+
+Hybrid Smart contract?
+on chain + off chain agreement
+
+Chainlink - decentralized oracle network
+
+Smart contract platform <> blockchain
+
+Dapp = decentralized application = decentralized protocol = smart contract
+
+What is the value of smart contracts?
+- unbreakable promises, agreements
+
+The purpose of smart contract
+- it is more like pinky swear
+- example of Mac D of $1 million lottery
+
+What is a smart contract?
+- A smart contract is an agreement, contract or a set of instructions that is deployed on a decentralized blockchain.
+
+Once deployed
+- cannot be altered (immutable)
+- automatically executes
+- everyone sees the terms of the agreement
+
+Smary contract balue = trust minimized agreements
+
+Many node operators run blockchains
+
+Other features smart contract have
+- Decentralized
+- Transparency and flexibility
+- Speed and efficiency
+- Security and immutability
+- counterparty risk removal
+- trust minimized agreements
+
+What have smart contracts done so far?
+
+Defi - decentralized finance
+DAOs - decentralized autonomous organizations
+NFTs - non fungible tokens
+
+Create metamask wallet
+
+Start with test networks
+
+complete the transcation using-  https://faucets.chain.link/
+
+Understandin Gas
+
+- Who are miners or validators
+
+- Gas is a unit of computational measure. the more complex your transaction is the more gas you have to pay.
+
+- any transaction on the blockchain comes with paying gas
+
+What is hash?
+A unique fixed length string, meant to identify a piece of data. they are created by placing said data into a hash function.
+
+more on blockchain demo - https://andersbrownworth.com/blockchain
+
+Genesis Blokc -
+- the first block in a blockchain
+
+- Hash, hash algorith
+- Block: a list of transactions mined together 
+- Mining: the process of finding the solution to the blockchain problem.
+In our example, the problem was to fina a hash that starts with four zeros.
+Nodes get paid for mining blocks.
+- nounce: a number used once to fint the solution to the blockchain problem
+It is also used to define the transaction number for an account/address
+- private key
+- elliptci curve digital signature algorithm
+- public key
+- signing a transaction
+- private key > public key > address
+- learn about EIP 1559
+
+Visit - eth-converter.com to check the difference between Gwei | Ether | Wei
+
+Check this video for EIP 1559 
+https://www.youtube.com/watch?v=MGemhK9t44Q
+
+Each different blockchain have slightly different algorithm and slightly different metrics or criteria to do stuff. However, the concepts will be same. 
+
+Node - A single instance in a descentralized network/
+
+Blockchains are resilient
+
+Blockchain nodes keep list of the transactions that orrurs
+
+- Consensus, proof of work, proof of stake
+
+Consensus is the mechanism used to agree on the state of a blockchain
+
+Roughly consensus can be broken down into
+
+1. Chain Selection
+2. Sybil Resistance
+
+- Pow
+- PoS
+
+- Nakamoto Consensus
+
+- Block Confirmations
+
+Proof of Work uses a lot of energy
+
+Gas fee is paid by the person who does transactions
+
+- Sybil Attack
+- 51% Attack
+
+- Longest Chain Rule
+
+- Proof of stake node put up collateral as a sybit resistance mechanism
+
+- Miners are called validatos
+
+- Ramdonness
+
+PoS uses much less energy
+
+- Scalability
+
+- Sharding
+
+- Layer 1: Base layer blockchain implementation
+
+- Layer 2: Any application build on top of a layer 2
+
+- Rollups
+
