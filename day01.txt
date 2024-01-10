@@ -69,3 +69,14 @@ Understandin Gas
 What is hash?
 A unique fixed length string, meant to identify a piece of data. they are created by placing said data into a hash function.
 
+more on blockchain demo - https://andersbrownworth.com/blockchain
+
+Genesis Blokc -
+- the first block in a blockchain
+
+- Hash, hash algorith
+- Block: a list of transactions mined together 
+- Mining: the process of finding the solution to the blockchain problem.
+In our example, the problem was to fina a hash that starts with four zeros.
+Nodes get paid for mining blocks.
+- 
