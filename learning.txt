@@ -144,4 +144,3 @@ PoS uses much less energy
 
 - Rollups
 
-     
