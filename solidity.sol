@@ -1,9 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-    // practice done in remix ide
-
-
     // using struct - it can be using across multiple contracts
     // struct student{
     //     uint studentRollNumber;
@@ -14,9 +11,38 @@ pragma solidity ^0.8.4;
 
 contract SimpleStorage {
 
+    // mapping with struct
+    
+    // example 1
+
+    // struct car {
+    //     uint modelNumber;
+    //     string modelName;
+    //     string modelColor;
+    //     uint modelPrice;
+    // }
+
+    // mapping (uint=>car) public carDetails;
+    // function getCarInfo(uint id, uint _modelNumber, string memory _modelName, string memory _modelColor, uint _modelPrice) public {
+    //     carDetails[id] = car(_modelNumber, _modelName, _modelColor, _modelPrice);
+    // }
+
+
+    // example 2
+
+    // struct student{
+    //     string name;
+    //     uint class;
+    // }
+    // mapping(uint => student) public studentData; 
+    // function setter(uint _rollNo, string memory _name, uint _class) public {
+    //     studentData[_rollNo] = student(_name, _class);
+    // }
+
+
     // mapping
 
-    
+
 
 //    mapping(uint => string) public rollNo;
 //     function getter(uint key, string memory value) public {
