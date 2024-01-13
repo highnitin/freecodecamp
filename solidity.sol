@@ -11,6 +11,82 @@ pragma solidity ^0.8.4;
 
 contract SimpleStorage {
 
+    
+
+
+    // global variables
+
+    // function getBlockInfo() public view returns (
+    //     bytes32 blockHash,
+    //     uint chainId,
+    //     address payable coinbase,
+    //     uint difficulty,
+    //     uint gasLimit,
+    //     uint blockNumber,
+    //     uint timestamp
+    // ) {
+    //     return (
+    //         blockhash(block.number),
+    //         block.chainid,
+    //         block.coinbase,
+    //         block.difficulty,
+    //         block.gaslimit,
+    //         block.number,
+    //         block.timestamp
+    // https://www.epochconverter.com/ for time stamp conversion use this
+    //     );
+    // }
+
+    // function getMsgAndTxInfo() public view returns (
+    //     uint gasRemaining,
+    //     bytes memory msgData,
+    //     address msgSender,
+    //     bytes4 msgSig,
+    //     uint txGasPrice,
+    //     address txOrigin
+    // ) {
+    //     return (
+    //         gasleft(),
+    //         msg.data,
+    //         msg.sender,
+    //         msg.sig,
+    //         tx.gasprice,
+    //         tx.origin
+    //     );
+    // }
+
+    // function getter() public view returns (
+    //     bytes32 blockHash,
+    //     uint chainId,
+    //     address payable coinbase,
+    //     uint difficulty,
+    //     uint gasLimit,
+    //     uint blockNumber,
+    //     uint timestamp,
+    //     uint gasRemaining,
+    //     bytes memory msgData,
+    //     address msgSender,
+    //     bytes4 msgSig,
+    //     uint txGasPrice,
+    //     address txOrigin
+    // ) {
+    //     return (
+    //         blockhash(block.number),
+    //         block.chainid,
+    //         block.coinbase,
+    //         block.difficulty,
+    //         block.gaslimit,
+    //         block.number,
+    //         block.timestamp,
+    //         gasleft(),
+    //         msg.data,
+    //         msg.sender,
+    //         msg.sig,
+    //         tx.gasprice,
+    //         tx.origin
+    //     );
+    // }
+
     // mapping with struct
     
     // example 1
