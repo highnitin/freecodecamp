@@ -9,9 +9,138 @@ pragma solidity ^0.8.4;
         // string studentGrade;
     // }
 
+    // visibility - public, private, internal, external
+
+    // contract A {
+
+        // function f1() public pure returns(uint) {
+
+            // uint accessingFunction1 = f2(); // Yes
+            //private function f2 can be acessed within public function, Within - Yes 
+            // uint accessingFunction2 = f3(); // Yes
+            //internal function f3 can be acessed within public function, Within - Yes 
+            // uint accessingFunction3 = f4(); // No
+            //external function f4 cannot be acessed within public function, Within - No 
+            // return 1;
+
+            //outside  (possible) - accessible to the outside environment (compile and you will see f1)
+            // within  (possible)
+            // derived (possible)
+            // other (possible)
+        // }
+
+        // function f2() private pure returns(uint) {
+    
+            // uint accessingFunction1 = f1(); // Yes
+            //public function f1 can be acessed within private function, Within - Yes 
+            // uint accessingFunction2 = f3(); // Yes
+            //internal function f3 can be acessed within private function, Within - Yes 
+            // uint accessingFunction3 = f4(); // No
+            //external function f4 cannot be acessed within private function, Within - No 
+            // return 2;
+            
+            //outside  (not possible) - not accessible to the outside environment (compile and you will not see f2)
+            // within  (possible)
+            // derived (not possible)
+            // other (not possible)
+        // }
+
+        // function f3() internal pure returns(uint) {
+            
+            // uint accessingFunction1 = f1(); // Yes
+            //public function f1 can be acessed within internal function, Within - Yes 
+            // uint accessingFunction2 = f2(); // Yes
+            //private function f2 can be acessed within internal function, Within - Yes 
+            // uint accessingFunction3 = f4(); // No
+            //external function f4 cannot be acessed within internal function, Within - No 
+           
+            // return 3;
+
+            //outside  (not possible) -  not accessible to the outside environment (compile and you will not see f3)
+            // within  (possible)
+            // derived (possible)
+            // other (not possible)
+        // }
+
+        // function f4() external pure returns(uint) {
+        
+            // uint accessingFunction1 = f1(); // Yes
+            //public function f1 can be acessed within internal function, Within - Yes 
+            // uint accessingFunction2 = f2(); // Yes
+            //private function f2 can be acessed within internal function, Within - Yes 
+            // uint accessingFunction3 = f3(); // No
+            //internal function f4 can be acessed within external function, Within - Yes 
+            
+            // return 4;
+
+            // outside (possible) - accessible to the outside environment (compile and you will see f4)
+            // within (not possible)
+            // derived (possible but also dependent on within)
+            // other (possible)
+        // }
+    // }
+
+    // To demonstrate derived type 
+    // contract B is A{
+    //     uint public bf1 = f1(); // derived
+        // uint public bf2 = f2(); // not derived - not possible as private is not derived 
+        // uint public bf3 = f3(); // derived
+        // uint public bf4 = f4(); // not possible as exteral is derived but we cannot use it within.
+    //  }
+
+    //  contract C{
+    //     A obj = new A();
+    //     uint public cf1 = obj.f1(); // other (possible)
+        // uint public cf2 = obj.f2(); // other (not possible)
+        // uint public cf3 = obj.f3(); // other (not possible)
+        // uint public cf4 = obj.f4(); // other (possible)
+    //  }
+
+
 contract SimpleStorage {
 
-    
+
+
+    // contract update balance 
+
+    // make your contract payable
+
+    // we need to explicitly mention the address  
+    // address payable user = payable(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4);
+
+    // this function loads the balance
+    // function payEther() public payable {
+
+    // }
+    // this function checkBalance
+    // function checkBalance() public view returns(uint) {
+    //     return address(this).balance;
+    // }
+
+    // this function transfer ether to the address associated with user variable
+    // function transferEther() public {
+    //     user.transfer(27 ether);
+    // }
+
+
+    // storage vs memory
+
+    // string [] public keywords = ['web3', 'blockchain', 'highnitin'];
+
+    // function mem() public view{
+    //     string [] memory keyBank = keywords;
+    //     // keyBank is exact copy of keywords
+    //     keyBank[0] = 'web3.0 #web3'; 
+    //     // keyBank[0] is referring to the copy of the array keywords not the original array keywords. Hence it is untouched.
+    // }
+
+    // function sto() public {
+    //     string [] storage keyBank = keywords;
+    //     // keyBank is same as array keywords
+    //     keyBank[0] = 'web3.0 #web3'; 
+    //     // keyBank[0] is referring to the exact array keywords. Hence it is updated.
+    // }
+
 
 
     // global variables
