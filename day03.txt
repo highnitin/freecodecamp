@@ -1,4 +1,6 @@
 Day 03 - Learning dump from freecodecamp (ignore typos)
 
 - Overflow in solidity
-- 
+- 0.5.0 overflow issue with uint8 = 255;
+tru to update the variable with +1 you will see it is changed to 0
+- arrays (fixed sized and dynamic sized array)
